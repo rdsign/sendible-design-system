@@ -1,0 +1,45 @@
+{
+    "name": "@rdsign/sendible-design-system",
+    "version": "0.1.0",
+    "description": "component library and design system for sendible",
+    "author": "rdsign",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rdsign/sendible-design-system.git"
+    },
+    "license": "ISC",
+    "main": "dist/index.js",
+    "types": "dist/index",
+    "files": [
+        "dist/**/*"
+    ],
+    "scripts": {
+        "start": "start-storybook -p 6006 --no-manager-cache",
+        "build": "rm -rf ./dist && tsc -p tsconfig.prod.json"
+    },
+    "devDependencies": {
+        "@storybook/addon-essentials": "^6.4.9",
+        "@storybook/react": "^6.4.9",
+        "@typescript-eslint/eslint-plugin": "^5.9.0",
+        "@typescript-eslint/parser": "^5.9.0",
+        "eslint": "^8.6.0",
+        "eslint-config-airbnb": "^19.0.4",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-import-resolver-typescript": "^2.5.0",
+        "eslint-plugin-import": "^2.25.4",
+        "eslint-plugin-jsx-a11y": "^6.5.1",
+        "eslint-plugin-prettier": "^4.0.0",
+        "eslint-plugin-react": "^7.28.0",
+        "eslint-plugin-react-hooks": "^4.3.0",
+        "prettier": "^2.5.1",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "styled-components": "^5.3.3",
+        "typescript": "^4.5.4"
+    },
+    "peerDependencies": {
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "styled-components": "^5.3.3"
+    }
+}

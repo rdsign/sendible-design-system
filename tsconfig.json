@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        /* Language and Environment */
+        "target": "es6",
+        "lib": ["dom", "esnext"],
+        "jsx": "react-jsx",
+
+        /* Modules */
+        "module": "commonjs",
+        "baseUrl": "./",
+        "rootDirs": ["./src"],
+
+        /* JavaScript Support */
+        "allowJs": false,
+
+        /* Emit */
+        "declaration": true,
+        "declarationMap": true,
+        "outDir": "./dist",
+        "removeComments": true,
+
+        /* Interop Constraints */
+        "isolatedModules": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+
+        /* Type Checking */
+        "strict": true,
+
+        /* Completeness */
+        "skipLibCheck": false
+    },
+    "includes": ["src/**/*"],
+    "exclude": ["node_modules", "dist"]
+}
