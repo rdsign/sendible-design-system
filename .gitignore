@@ -2,8 +2,8 @@
 node_modules
 
 #builds
-dist
 build
+dist
 
 #other
 *.tgz

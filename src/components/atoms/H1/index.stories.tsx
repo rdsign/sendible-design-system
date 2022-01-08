@@ -1,8 +1,8 @@
-import { Meta, Story } from "@storybook/react/types-6-0";
-import { H1 as Component } from "./index";
+import { Meta, Story } from '@storybook/react/types-6-0';
+import { H1 as Component } from './index';
 
 export default {
-    title: "Atoms/H1",
+    title: 'Atoms/H1',
     component: Component,
 } as Meta;
 

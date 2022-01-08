@@ -20,6 +20,7 @@
     "devDependencies": {
         "@storybook/addon-essentials": "^6.4.9",
         "@storybook/react": "^6.4.9",
+        "@types/styled-components": "^5.1.19",
         "@typescript-eslint/eslint-plugin": "^5.9.0",
         "@typescript-eslint/parser": "^5.9.0",
         "eslint": "^8.6.0",

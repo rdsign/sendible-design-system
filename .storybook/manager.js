@@ -1,5 +1,5 @@
-import { addons } from "@storybook/addons";
-import sendible from "./sendible";
+import { addons } from '@storybook/addons';
+import sendible from './sendible';
 
 addons.setConfig({
     theme: sendible,
