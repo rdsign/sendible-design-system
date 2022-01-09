@@ -43,6 +43,7 @@ declare module 'styled-components' {
             s18: string;
             s20: string;
             s32: string;
+            s64: string;
             s80: string;
         };
         wrappers: {

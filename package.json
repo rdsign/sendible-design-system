@@ -15,7 +15,7 @@
     ],
     "scripts": {
         "build": "rm -rf ./dist && tsc -p tsconfig.prod.json && cp ./src/styled.d.ts ./dist",
-        "start": "start-storybook -p 6006 --no-manager-cache",
+        "start": "start-storybook -p 6006 --no-manager-cache -s ./.storybook/images",
         "test": "jest",
         "test:update": "jest -u"
     },
@@ -45,8 +45,10 @@
         "jest": "^27.4.7",
         "jest-styled-components": "^7.0.8",
         "prettier": "^2.5.1",
+        "prop-types": "^15.8.1",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
+        "react-svg": "^14.1.7",
         "react-test-renderer": "^17.0.2",
         "regenerator-runtime": "^0.13.9",
         "styled-components": "^5.3.3",

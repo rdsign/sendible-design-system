@@ -5,9 +5,10 @@ module.exports = {
         '!src/index.ts',
         '!src/theme/**/*',
         '!src/components/system/**/*',
+        '!src/**/*.d.ts',
+        '!src/**/*.exports.ts',
         '!src/**/*.styles.ts',
         '!src/**/*.stories.tsx',
-        '!src/**/*.d.ts',
     ],
     coverageThreshold: {
         global: {
@@ -18,6 +19,7 @@ module.exports = {
         },
     },
     moduleNameMapper: {
+        '^.+\\.(css|sass|scss)$': '<rootDir>/spec/__mocks__/styleMock.js',
         '^.+\\.(jpg|jpeg|png|gif|webp|svg)$': '<rootDir>/spec/__mocks__/fileMock.js',
     },
     preset: 'ts-jest',

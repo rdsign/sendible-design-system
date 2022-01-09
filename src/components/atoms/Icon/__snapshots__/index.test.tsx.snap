@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon should match snapshot 1`] = `
+.c0 {
+  fill: #201E24;
+  height: 1.125rem;
+  width: 1.125rem;
+}
+
+.c0 svg {
+  height: 100%;
+  width: 100%;
+}
+
+<div
+  className="c0"
+  name="clock"
+>
+  <svg
+    height="24"
+    viewBox="0 0 24 24"
+    width="24"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+  />
+</div>
+`;

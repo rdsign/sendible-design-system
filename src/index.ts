@@ -1,2 +1,5 @@
-export { H1 } from './components/atoms/H1';
+export { Heading } from './components/atoms/Heading';
+export { Icon } from './components/atoms/Icon';
+export { Paragraph } from './components/atoms/Paragraph';
+
 export { ThemeProvider } from './components/system/ThemeProvider';

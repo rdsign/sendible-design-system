@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon should match snapshot 1`] = `
+.c0 {
+  color: #201E24;
+  font-size: 5rem;
+  font-weight: 500;
+  line-height: 1em;
+}
+
+.c0 i {
+  color: #FF6153E6;
+  font-weight: 400;
+}
+
+<h1
+  className="c0"
+  name="h1"
+  size="s80"
+>
+  Sendible
+  <i>
+     Rocks!
+  </i>
+</h1>
+`;

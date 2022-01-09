@@ -1,8 +1,13 @@
 import { create } from 'react-test-renderer';
-import { H1 } from './index';
+import { Icon } from '.';
+import { Template } from '../../../../spec/template';
 
 describe('Icon', () => {
-    const component = <H1 />;
+    const component = (
+        <Template>
+            <Icon name="clock" />
+        </Template>
+    );
 
     test('should match snapshot', () => {
         const snapshot = create(component);
