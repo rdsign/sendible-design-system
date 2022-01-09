@@ -5,5 +5,3 @@ declare module '*.svg' {
     const src: string;
     export default src;
 }
-
-type Icons = 'calendar' | 'clock' | 'close' | 'danger' | 'edit' | 'globe' | 'trash' | 'tweets' | 'twitter';

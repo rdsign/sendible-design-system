@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { ReactSVG } from 'react-svg';
-import * as icons from './icons/index.exports';
+import * as icons from './iconList.exports';
 import { allColorsValuesUnion } from '../../../theme';
 import { Container } from './index.styles';
 
@@ -8,7 +8,7 @@ export interface IconProps {
     /**
      * Icon name. E.g.: calendar, trash, etc. (Required)
      */
-    name: Icons;
+    name: 'calendar' | 'clock' | 'close' | 'danger' | 'edit' | 'globe' | 'trash' | 'tweets' | 'twitter';
     /**
      * Icon color. (Optional | Default: brandDark)
      */
