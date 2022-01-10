@@ -3,7 +3,10 @@ import { IconProps } from '.';
 
 export const Container = styled.div<IconProps>`
     ${({ color = '#201E24', size = 'medium' }) => css`
+        align-items: center;
+        display: flex;
         fill: ${color};
+        justify-content: center;
 
         svg {
             height: 100%;

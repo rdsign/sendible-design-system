@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input should match snapshot 1`] = `
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  fill: #201E24;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.c1 svg {
+  height: 100%;
+  width: 100%;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #F4F4F4;
+  border-radius: 0.4rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+}
+
+.c0 input {
+  border: 0.1rem solid #F4F4F4;
+  border-radius: 0.4rem;
+  color: #201E24;
+  font-size: 2rem;
+  height: 100%;
+  padding: 1rem 0;
+  padding-left: 5rem;
+  width: 100%;
+}
+
+.c0 input::-webkit-input-placeholder {
+  color: #A6A5A7;
+}
+
+.c0 input::-moz-placeholder {
+  color: #A6A5A7;
+}
+
+.c0 input:-ms-input-placeholder {
+  color: #A6A5A7;
+}
+
+.c0 input::placeholder {
+  color: #A6A5A7;
+}
+
+.c0 input:focus {
+  background: #F6F5FF;
+  border: 0.1rem solid #4D36FF;
+}
+
+.c2 {
+  left: 1.25rem;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+}
+
+<label
+  className="c0"
+  id="date"
+  mask="date"
+  maxLength={10}
+>
+  <div
+    className="c1 c2"
+    name="calendar"
+    size="large"
+  >
+    <svg
+      data-testid="svg"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    />
+  </div>
+  <input
+    id="date"
+    maxLength={10}
+    onChange={[Function]}
+    type="input"
+  />
+</label>
+`;
