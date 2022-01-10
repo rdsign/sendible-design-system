@@ -11,20 +11,29 @@ export const Container = styled.li`
         height: 16.8rem;
         justify-content: space-between;
         padding: 2rem 3rem;
+        position: relative;
     `}
 `;
 
 export const Icon = styled(DIcon)`
     ${({ theme: { colors } }) => css`
         fill: ${colors.socialTwitter};
+        left: 3rem;
         margin-right: 2rem;
         min-width: 2.4rem;
+        position: absolute;
+        top: 2rem;
     `}
 `;
 
 export const Info = styled.div`
     display: flex;
     flex-direction: column;
+    padding-left: 5rem;
+
+    p {
+        word-break: break-word;
+    }
 
     & p:nth-child(1) {
         margin-bottom: 1.5rem;

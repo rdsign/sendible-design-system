@@ -54,7 +54,7 @@ export const theme = {
     wrappers: {
         desktop: '120rem',
         laptop: '90rem',
-        mobile: 'calc(100vw - 4.6rem)',
+        mobile: 'calc(100vw - 4.8rem)',
     },
     zIndexes: {
         bellow: -1,

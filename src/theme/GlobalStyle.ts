@@ -1,7 +1,13 @@
 import { createGlobalStyle, css } from 'styled-components';
 
 export default createGlobalStyle`
-    ${({ theme: { colors } }) => css`
+    ${({
+        theme: {
+            breakPoints: { laptops, smDevices, mdDevices },
+            colors,
+            wrappers,
+        },
+    }) => css`
         html {
             box-sizing: border-box;
             color: ${colors.brandDark};
@@ -90,6 +96,23 @@ export default createGlobalStyle`
         button {
             cursor: pointer;
             line-height: 1em;
+        }
+
+        .wrapper {
+            margin: 0 auto;
+            max-width: ${wrappers.desktop};
+
+            // small desktop
+            @media all and (${laptops.min}) and (${laptops.max}) {
+                margin: 0 auto;
+                max-width: ${wrappers.laptop};
+            }
+
+            // mobile
+            @media all and (${smDevices.min}) and (${mdDevices.max}) {
+                margin: 0 auto;
+                max-width: ${wrappers.mobile};
+            }
         }
     `}
 `;
