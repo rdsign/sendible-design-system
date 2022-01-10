@@ -36,7 +36,6 @@ exports[`textarea should match snapshot 1`] = `
 
 <textarea
   className="c0"
-  data-testid="textarea"
   id="date"
   maxLength={50}
   onChange={[Function]}

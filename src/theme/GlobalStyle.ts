@@ -6,6 +6,7 @@ export default createGlobalStyle`
             box-sizing: border-box;
             color: ${colors.brandDark};
             font-family: 'IBM Plex Sans', sans-serif;
+            font-size: 62.5%;
             scroll-behavior: smooth;
             -ms-text-size-adjust: 100%;
             -webkit-text-size-adjust: 100%;

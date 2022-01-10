@@ -22,7 +22,7 @@ describe('Button', () => {
         expect(snapshot).toMatchSnapshot();
     });
 
-    test('should call onClick and onMouseOver upon click', () => {
+    test('should call onClick upon click', () => {
         render(component);
         const button = screen.getByRole('button');
 

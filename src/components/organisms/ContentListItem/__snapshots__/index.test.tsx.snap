@@ -1,0 +1,332 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentListItem should match snapshot 1`] = `
+.c4 {
+  color: #79787C;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.c4 i,
+.c4 a {
+  color: #4D36FF;
+}
+
+.c5 {
+  color: #201E24;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.c5 i,
+.c5 a {
+  color: #4D36FF;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  fill: #201E24;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.c1 svg {
+  height: 100%;
+  width: 100%;
+}
+
+.c8 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  fill: #201E24;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 1.8rem;
+  width: 1.8rem;
+}
+
+.c8 svg {
+  height: 100%;
+  width: 100%;
+}
+
+.c7 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 0.3rem solid #FFFFFF;
+  border-radius: 10rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 500;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: border 0.3s,background-color 0.3s cubic-bezier(0.5,1,0.5,1);
+  transition: border 0.3s,background-color 0.3s cubic-bezier(0.5,1,0.5,1);
+  font-size: 1.6rem;
+  padding: 1rem 1.33rem;
+  padding: 1rem;
+  background: transparent;
+  color: #201E24;
+}
+
+.c7 div[name='edit'] {
+  margin-right: 0.53rem;
+}
+
+.c7 div[name='edit'] {
+  margin-right: 0;
+}
+
+.c7 * {
+  fill: #201E24;
+}
+
+.c7:hover {
+  background: #F4F4F4;
+}
+
+.c7:focus,
+.c7:active {
+  background: #F4F4F4;
+  border: 0.3rem solid #D2D2D3;
+}
+
+.c7:disabled {
+  background: transparent;
+  color: #D2D2D3;
+  cursor: default;
+}
+
+.c7:disabled * {
+  fill: #D2D2D3;
+}
+
+.c9 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 0.3rem solid #FFFFFF;
+  border-radius: 10rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 500;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: border 0.3s,background-color 0.3s cubic-bezier(0.5,1,0.5,1);
+  transition: border 0.3s,background-color 0.3s cubic-bezier(0.5,1,0.5,1);
+  font-size: 1.6rem;
+  padding: 1rem 1.33rem;
+  padding: 1rem;
+  background: transparent;
+  color: #201E24;
+}
+
+.c9 div[name='trash'] {
+  margin-right: 0.53rem;
+}
+
+.c9 div[name='trash'] {
+  margin-right: 0;
+}
+
+.c9 * {
+  fill: #201E24;
+}
+
+.c9:hover {
+  background: #F4F4F4;
+}
+
+.c9:focus,
+.c9:active {
+  background: #F4F4F4;
+  border: 0.3rem solid #D2D2D3;
+}
+
+.c9:disabled {
+  background: transparent;
+  color: #D2D2D3;
+  cursor: default;
+}
+
+.c9:disabled * {
+  fill: #D2D2D3;
+}
+
+.c0 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  background: #FFFFFF;
+  border: 1px solid #D2D2D3;
+  border-radius: 0.4rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 16.8rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 2rem 3rem;
+}
+
+.c2 {
+  fill: #1DA1F2;
+  margin-right: 2rem;
+  min-width: 2.4rem;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3 p:nth-child(1) {
+  margin-bottom: 1.5rem;
+}
+
+.c3 p:nth-child(2) {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c6 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 0.5rem;
+  margin-top: -0.5rem;
+  margin-right: -0.5rem;
+}
+
+<li
+  className="c0"
+>
+  <div
+    className="c1 c2"
+    name="twitter"
+    size="large"
+  >
+    <svg
+      data-testid="svg"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    />
+  </div>
+  <div
+    className="c3"
+  >
+    <p
+      className="c4"
+      size="s12"
+    >
+      25 Dec 2021 - 11:05
+    </p>
+    <p
+      className="c5"
+      size="s20"
+    >
+      This assignment alksj lsakjd alsjkd alksjd  is awesome! 😁😁😁
+    </p>
+  </div>
+  <div
+    className="c6"
+  >
+    <button
+      className="c7"
+      disabled={false}
+      onClick={[Function]}
+      size="medium"
+      type="button"
+    >
+      <div
+        className="c8"
+        name="edit"
+        size="medium"
+      >
+        <svg
+          data-testid="svg"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        />
+      </div>
+    </button>
+    <button
+      className="c9"
+      disabled={false}
+      onClick={[Function]}
+      size="medium"
+      type="button"
+    >
+      <div
+        className="c8"
+        name="trash"
+        size="medium"
+      >
+        <svg
+          data-testid="svg"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        />
+      </div>
+    </button>
+  </div>
+</li>
+`;

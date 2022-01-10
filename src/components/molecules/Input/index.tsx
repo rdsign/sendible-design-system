@@ -37,6 +37,9 @@ export interface InputProps {
     placeholder?: string;
 }
 
+/**
+ * Input
+ */
 export const Input: FC<InputProps> = (props) => {
     const { change, icon, id, initialValue, mask, maxLength, placeholder } = props;
 
