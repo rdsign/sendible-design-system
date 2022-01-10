@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`textarea should match snapshot 1`] = `
+.c0 {
+  background: #F4F4F4;
+  border: 0.1rem solid #F4F4F4;
+  border-radius: 0.4rem;
+  color: #201E24;
+  font-size: 2rem;
+  height: 0px;
+  overflow: hidden;
+  padding: 1rem 2rem;
+  resize: none;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #A6A5A7;
+}
+
+.c0::-moz-placeholder {
+  color: #A6A5A7;
+}
+
+.c0:-ms-input-placeholder {
+  color: #A6A5A7;
+}
+
+.c0::placeholder {
+  color: #A6A5A7;
+}
+
+.c0:focus {
+  background: #F6F5FF;
+  border: 0.1rem solid #4D36FF;
+}
+
+<textarea
+  className="c0"
+  data-testid="textarea"
+  id="date"
+  maxLength={50}
+  onChange={[Function]}
+/>
+`;

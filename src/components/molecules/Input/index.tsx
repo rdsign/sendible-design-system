@@ -38,7 +38,7 @@ export interface InputProps {
 }
 
 export const Input: FC<InputProps> = (props) => {
-    const { change, hasError, icon, id, initialValue, mask, maxLength, placeholder } = props;
+    const { change, icon, id, initialValue, mask, maxLength, placeholder } = props;
 
     const ref = useRef<any>(null);
 

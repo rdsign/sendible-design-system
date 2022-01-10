@@ -25,6 +25,7 @@
     "plugins": ["react", "react-hooks", "@typescript-eslint", "prettier"],
     "rules": {
         "@typescript-eslint/no-empty-interface": "off",
+        "@typescript-eslint/no-explicit-any": "off",
         "@typescript-eslint/no-var-requires": "off",
         "global-require": "off",
         "import/extensions": "off",
@@ -43,6 +44,7 @@
         "react/no-unused-prop-types": "off",
         "react/prop-types": "off",
         "react/react-in-jsx-scope": "off",
-        "react/require-default-props": "off"
+        "react/require-default-props": "off",
+        "react-hooks/exhaustive-deps": "warn"
     }
 }
