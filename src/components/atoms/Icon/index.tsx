@@ -6,17 +6,17 @@ import { Container } from './index.styles';
 
 export interface IconProps {
     /**
-     * Icon name. E.g.: calendar, trash, etc. (Required)
-     */
-    name: 'calendar' | 'clock' | 'close' | 'danger' | 'edit' | 'globe' | 'trash' | 'tweets' | 'twitter';
-    /**
      * Icon color. (Optional | Default: brandDark)
      */
     color?: typeof allColorsValuesUnion[number];
     /**
-     * Icon size. (Optional | Default: small)
+     * Icon name. E.g.: calendar, trash, etc. (Required)
      */
-    size?: 'small' | 'medium';
+    name: 'calendar' | 'clock' | 'close' | 'danger' | 'edit' | 'globe' | 'trash' | 'tweets' | 'twitter';
+    /**
+     * Icon size. (Optional | Default: medium)
+     */
+    size?: 'small' | 'medium' | 'large';
 }
 
 /**
@@ -29,7 +29,7 @@ export const Icon: FC<IconProps> = (props) => {
 
     return (
         <Container {...props}>
-            <ReactSVG src={svg} wrapper="svg" width="24" height="24" viewBox="0 0 24 24" />
+            <ReactSVG data-testid="svg" src={svg} wrapper="svg" width="24" height="24" viewBox="0 0 24 24" />
         </Container>
     );
 };

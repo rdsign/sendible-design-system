@@ -12,13 +12,13 @@ export interface ParagraphProps {
      */
     colorSecondary?: typeof brandColorsUnion[number];
     /**
-     * Font size. (Optional | Default: s16)
-     */
-    size?: 's20' | 's18' | 's16' | 's12';
-    /**
      * Font weight. (Optional | Default: regular)
      */
     fontWeight?: 'regular' | 'medium' | 'semiBold';
+    /**
+     * Font size. (Optional | Default: s16)
+     */
+    size?: 's20' | 's18' | 's16' | 's12';
 }
 
 /**

@@ -22,6 +22,8 @@ declare module 'styled-components' {
             [k: string]: string | undefined;
             brandPrimary: string;
             brandPrimaryAlpha05: string;
+            brandPrimaryAlpha20: string;
+            brandPrimaryShade10: string;
             brandAccent: string;
             brandAccentAlpha90: string;
             brandDark: string;
@@ -35,6 +37,9 @@ declare module 'styled-components' {
             semanticDangerShade10: string;
             semanticDangerAlpha05: string;
             socialTwitter: string;
+        };
+        motions: {
+            cubic: string;
         };
         sizings: {
             [k: string]: string | undefined;

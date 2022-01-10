@@ -1,8 +1,8 @@
 import { Meta, Story } from '@storybook/react/types-6-0';
-import { Icon as Component, IconProps } from './index';
+import { Icon as Component, IconProps as ComponentProps } from './index';
 
 export default {
-    title: 'Atoms/UI/Icon',
+    title: 'Atoms/Icon',
     component: Component,
     argTypes: {
         color: {
@@ -14,12 +14,12 @@ export default {
         },
         size: {
             control: 'radio',
-            options: ['small', 'medium'],
+            options: ['small', 'medium', 'large'],
         },
     },
 } as Meta;
 
-const Template: Story<IconProps> = (args) => <Component {...args} />;
+const Template: Story<ComponentProps> = (args) => <Component {...args} />;
 
 export const IconSmall = Template.bind({});
 IconSmall.args = {
@@ -31,4 +31,10 @@ export const IconMedium = Template.bind({});
 IconMedium.args = {
     name: 'calendar',
     size: 'medium',
+};
+
+export const IconLarge = Template.bind({});
+IconLarge.args = {
+    name: 'globe',
+    size: 'large',
 };

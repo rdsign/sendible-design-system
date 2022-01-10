@@ -1,15 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Icon should match snapshot 1`] = `
+exports[`Heading should match snapshot 1`] = `
 .c0 {
   color: #201E24;
-  font-size: 5rem;
+  font-size: 8rem;
   font-weight: 500;
   line-height: 1em;
 }
 
 .c0 i {
-  color: #FF6153E6;
+  color: #FF7064;
   font-weight: 400;
 }
 

@@ -1,9 +1,9 @@
 import { Meta, Story } from '@storybook/react/types-6-0';
-import { Paragraph as Component, ParagraphProps } from './index';
+import { Paragraph as Component, ParagraphProps as ComponentProps } from './index';
 import { brandColors } from '../../../theme';
 
 export default {
-    title: 'Atoms/Typography/Paragraph',
+    title: 'Atoms/Paragraph',
     component: Component,
     argTypes: {
         colorPrimary: {
@@ -28,8 +28,8 @@ export default {
 const text =
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula, felis vitae vestibulum viverra, ex quam tempor tellus.';
 
-const Template: Story<ParagraphProps> = (args) => <Component {...args}>{text}</Component>;
-const TemplateDecorated: Story<ParagraphProps> = (args) => (
+const Template: Story<ComponentProps> = (args) => <Component {...args}>{text}</Component>;
+const TemplateDecorated: Story<ComponentProps> = (args) => (
     <Component {...args}>
         {text}
         <i> Enim augue vehicula lorem </i>

@@ -1,9 +1,9 @@
 import { Meta, Story } from '@storybook/react/types-6-0';
-import { Heading as Component, HeadingProps } from './index';
+import { Heading as Component, HeadingProps as ComponentProps } from './index';
 import { brandColors, sizings } from '../../../theme';
 
 export default {
-    title: 'Atoms/Typography/Heading',
+    title: 'Atoms/Heading',
     component: Component,
     argTypes: {
         colorPrimary: {
@@ -26,8 +26,8 @@ export default {
     },
 } as Meta;
 
-const Template: Story<HeadingProps> = (args) => <Component {...args}>Lorem ipsum dolor sit amet</Component>;
-const TemplateHighlighted: Story<HeadingProps> = (args) => (
+const Template: Story<ComponentProps> = (args) => <Component {...args}>Lorem ipsum dolor sit amet</Component>;
+const TemplateHighlighted: Story<ComponentProps> = (args) => (
     <Component {...args}>
         Lorem ipsum
         <br />

@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should match snapshot 1`] = `
+.c1 {
+  fill: #201E24;
+  height: 1.8rem;
+  width: 1.8rem;
+}
+
+.c1 svg {
+  height: 100%;
+  width: 100%;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 0.3rem solid #FFFFFF;
+  border-radius: 10rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 500;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: border 0.3s,background-color 0.3s cubic-bezier(0.5,1,0.5,1);
+  transition: border 0.3s,background-color 0.3s cubic-bezier(0.5,1,0.5,1);
+  font-size: 1.6rem;
+  padding: 1rem 1.33rem;
+  background: #4D36FF;
+  color: #FFFFFF;
+}
+
+.c0 div[name='tweets'] {
+  margin-right: 0.53rem;
+}
+
+.c0 * {
+  fill: #FFFFFF;
+}
+
+.c0:hover {
+  background: #4531E6;
+}
+
+.c0:focus,
+.c0:active {
+  background: #4531E6;
+  border: 0.3rem solid #DBD7FF;
+}
+
+.c0:disabled {
+  background: transparent;
+  color: #D2D2D3;
+  cursor: default;
+}
+
+.c0:disabled * {
+  fill: #D2D2D3;
+}
+
+<button
+  className="c0"
+  disabled={false}
+  label="Button"
+  onClick={[Function]}
+  type="button"
+>
+  <div
+    className="c1"
+    name="tweets"
+    size="medium"
+  >
+    <svg
+      data-testid="svg"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    />
+  </div>
+  Button
+</button>
+`;

@@ -2,7 +2,7 @@ import { create } from 'react-test-renderer';
 import { Paragraph } from '.';
 import { Template } from '../../../../spec/template';
 
-describe('Icon', () => {
+describe('Paragraph', () => {
     const component = (
         <Template>
             <Paragraph size="s20">

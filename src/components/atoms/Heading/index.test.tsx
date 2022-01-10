@@ -2,7 +2,7 @@ import { create } from 'react-test-renderer';
 import { Heading } from '.';
 import { Template } from '../../../../spec/template';
 
-describe('Icon', () => {
+describe('Heading', () => {
     const component = (
         <Template>
             <Heading name="h1" size="s80">
