@@ -16,7 +16,7 @@
     "scripts": {
         "build": "rm -rf ./dist && tsc -p tsconfig.prod.json && yarn copyfiles",
         "copyfiles": "cp -R ./src/styled.d.ts ./dist && cp -R ./src/assets ./dist",
-        "locallink": "yarn unlink && yarn build && cp package.json ./dist && cd ./dist && yarn link",
+        "locallink": "yarn build && cp package.json ./dist && cd ./dist && yarn link",
         "start": "start-storybook -p 6006 --no-manager-cache -s ./.storybook/images",
         "test": "jest",
         "test:update": "jest -u"
