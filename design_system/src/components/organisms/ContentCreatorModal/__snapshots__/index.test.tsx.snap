@@ -339,6 +339,7 @@ exports[`ContentCreatorModal should match snapshot 1`] = `
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 100;
 }
 
 .c1 {
@@ -494,7 +495,7 @@ exports[`ContentCreatorModal should match snapshot 1`] = `
       </div>
       <button
         className="c7"
-        disabled={false}
+        disabled={true}
         label="save"
         onClick={[Function]}
         size="medium"

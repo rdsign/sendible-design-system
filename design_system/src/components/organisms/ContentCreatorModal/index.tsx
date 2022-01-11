@@ -67,23 +67,29 @@ export const ContentCreatorModal: FC<ContentCreatorModalProps> = (props) => {
     useEffect(() => {
         initialValues &&
             (setDate(initialValues.date), setMessage(initialValues.message || ''), setTime(initialValues.time));
-    }, [initialValues]);
+    }, []);
 
     const handleSave = () => {
         if (message.length < 10) {
             setMessageFeedback('The message must contain 10 characters or more.');
             setMessageError(true);
             setHasError(true);
+            return;
         }
         if (!moment(date, 'DD/MM/YYYY', true).isValid()) {
             setDateFeedback('Date is incorrect. E.g.: 01/01/2022');
             setHasError(true);
-        } else if (!moment(time, 'HH:mm', true).isValid()) {
+            return;
+        }
+        if (!moment(time, 'HH:mm', true).isValid()) {
             setDateFeedback('Time is incorrect. E.g.: 10:20');
             setHasError(true);
-        } else if (!validateDate(date, time)) {
+            return;
+        }
+        if (!validateDate(date, time)) {
             setDateFeedback('Date in past. Choose a future date.');
             setHasError(true);
+            return;
         }
 
         save({
@@ -126,7 +132,7 @@ export const ContentCreatorModal: FC<ContentCreatorModalProps> = (props) => {
 
                     <Button
                         click={handleSave}
-                        isDisabled={hasError}
+                        isDisabled={message.length < 5 || date.length < 10 || time.length < 5 || hasError}
                         icon="tweets"
                         label={saveButtonLabel}
                         size="medium"

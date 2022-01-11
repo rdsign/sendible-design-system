@@ -1,14 +1,17 @@
 import styled, { css } from 'styled-components';
 
 export const Container = styled.div`
-    align-items: center;
-    display: flex;
-    height: 100%;
-    justify-content: center;
-    left: 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
+    ${({ theme: { borderRadius, colors, zIndexes } }) => css`
+        align-items: center;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        left: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: ${zIndexes.topPriority};
+    `}
 `;
 
 export const Content = styled.div`

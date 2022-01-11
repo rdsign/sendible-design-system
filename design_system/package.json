@@ -16,7 +16,7 @@
     "scripts": {
         "build": "rm -rf ./dist && tsc -p tsconfig.prod.json && yarn copyfiles",
         "copyfiles": "cp -R ./src/styled.d.ts ./dist && cp -R ./src/assets ./dist",
-        "locallink": "yarn build && cp package.json ./dist && cd ./dist && yarn link",
+        "locallink": "yarn unlink && yarn build && cp package.json ./dist && cd ./dist && yarn link",
         "start": "start-storybook -p 6006 --no-manager-cache -s ./.storybook/images",
         "test": "jest",
         "test:update": "jest -u"
@@ -46,7 +46,6 @@
         "eslint-plugin-react-hooks": "^4.3.0",
         "jest": "^27.4.7",
         "jest-styled-components": "^7.0.8",
-        "moment": "^2.29.1",
         "prettier": "^2.5.1",
         "prop-types": "^15.8.1",
         "react": "^17.0.2",
@@ -59,9 +58,11 @@
         "typescript": "^4.5.4"
     },
     "peerDependencies": {
-        "moment": "^2.29.1",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
         "styled-components": "^5.3.3"
+    },
+    "dependencies": {
+        "moment": "^2.29.1"
     }
 }
