@@ -17,7 +17,7 @@ export const Container = styled.label<InputProps>`
             color: ${colors.brandDark};
             font-size: ${sizings.s20};
             height: 100%;
-            padding: 1rem 0;
+            padding: 0.8rem 0;
             padding-left: ${icon ? '5rem' : '2rem'};
             width: 100%;
 

@@ -1,0 +1,650 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentCreatorModal should match snapshot 1`] = `
+.c5 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  fill: #201E24;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 1.8rem;
+  width: 1.8rem;
+}
+
+.c5 svg {
+  height: 100%;
+  width: 100%;
+}
+
+.c11 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  fill: #201E24;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.c11 svg {
+  height: 100%;
+  width: 100%;
+}
+
+.c14 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  fill: #79787C;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 1.8rem;
+  width: 1.8rem;
+}
+
+.c14 svg {
+  height: 100%;
+  width: 100%;
+}
+
+.c6 {
+  color: #201E24;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5em;
+  font-weight: 500;
+}
+
+.c6 i,
+.c6 a {
+  color: #4D36FF;
+}
+
+.c9 {
+  color: #201E24;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5em;
+  font-weight: 500;
+}
+
+.c9 i,
+.c9 a {
+  color: #4D36FF;
+}
+
+.c15 {
+  color: #79787C;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5em;
+  font-weight: 500;
+}
+
+.c15 i,
+.c15 a {
+  color: #4D36FF;
+}
+
+.c16 {
+  color: #79787C;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.c16 i,
+.c16 a {
+  color: #4D36FF;
+}
+
+.c8 {
+  background: #F4F4F4;
+  border: 0.1rem solid #F4F4F4;
+  border-radius: 0.4rem;
+  color: #201E24;
+  font-size: 2rem;
+  height: 0px;
+  overflow: hidden;
+  padding: 1rem 2rem;
+  resize: none;
+}
+
+.c8::-webkit-input-placeholder {
+  color: #A6A5A7;
+}
+
+.c8::-moz-placeholder {
+  color: #A6A5A7;
+}
+
+.c8:-ms-input-placeholder {
+  color: #A6A5A7;
+}
+
+.c8::placeholder {
+  color: #A6A5A7;
+}
+
+.c8:focus {
+  background: #F6F5FF;
+  border: 0.1rem solid #4D36FF;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 0.3rem solid #FFFFFF;
+  border-radius: 10rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 500;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: border 0.3s,background-color 0.3s cubic-bezier(0.5,1,0.5,1);
+  transition: border 0.3s,background-color 0.3s cubic-bezier(0.5,1,0.5,1);
+  font-size: 1.6rem;
+  padding: 1rem 1.33rem;
+  padding: 1rem;
+  background: transparent;
+  color: #201E24;
+}
+
+.c4 div[name='close'] {
+  margin-right: 0.53rem;
+}
+
+.c4 div[name='close'] {
+  margin-right: 0;
+}
+
+.c4 * {
+  fill: #201E24;
+}
+
+.c4:hover {
+  background: #F4F4F4;
+}
+
+.c4:focus,
+.c4:active {
+  background: #F4F4F4;
+  border: 0.3rem solid #D2D2D3;
+}
+
+.c4:disabled {
+  background: transparent;
+  color: #D2D2D3;
+  cursor: default;
+}
+
+.c4:disabled * {
+  fill: #D2D2D3;
+}
+
+.c7 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 0.3rem solid #FFFFFF;
+  border-radius: 10rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 500;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: border 0.3s,background-color 0.3s cubic-bezier(0.5,1,0.5,1);
+  transition: border 0.3s,background-color 0.3s cubic-bezier(0.5,1,0.5,1);
+  font-size: 1.6rem;
+  padding: 1rem 1.33rem;
+  background: #4D36FF;
+  color: #FFFFFF;
+}
+
+.c7 div[name='tweets'] {
+  margin-right: 0.53rem;
+}
+
+.c7 * {
+  fill: #FFFFFF;
+}
+
+.c7:hover {
+  background: #4531E6;
+}
+
+.c7:focus,
+.c7:active {
+  background: #4531E6;
+  border: 0.3rem solid #DBD7FF;
+}
+
+.c7:disabled {
+  background: transparent;
+  color: #D2D2D3;
+  cursor: default;
+}
+
+.c7:disabled * {
+  fill: #D2D2D3;
+}
+
+.c10 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #F4F4F4;
+  border-radius: 0.4rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+}
+
+.c10 input {
+  border: 0.1rem solid #F4F4F4;
+  border-radius: 0.4rem;
+  color: #201E24;
+  font-size: 2rem;
+  height: 100%;
+  padding: 0.8rem 0;
+  padding-left: 5rem;
+  width: 100%;
+}
+
+.c10 input::-webkit-input-placeholder {
+  color: #A6A5A7;
+}
+
+.c10 input::-moz-placeholder {
+  color: #A6A5A7;
+}
+
+.c10 input:-ms-input-placeholder {
+  color: #A6A5A7;
+}
+
+.c10 input::placeholder {
+  color: #A6A5A7;
+}
+
+.c10 input:focus {
+  background: #F6F5FF;
+  border: 0.1rem solid #4D36FF;
+}
+
+.c12 {
+  left: 1.25rem;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.c1 {
+  background: #FFFFFF;
+  border-radius: 0.4rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 2.4rem;
+  position: relative;
+  width: 44.8rem;
+}
+
+.c1 textarea {
+  margin-top: 3.6rem;
+  max-height: 24rem;
+  width: 100%;
+}
+
+.c1 .feedbacks {
+  margin: 0.4rem 0 1.6rem;
+}
+
+.c1 .feedbacks p {
+  line-height: 1em;
+}
+
+.c1 .right {
+  place-self: flex-end;
+}
+
+.c1 .input-titles {
+  margin-bottom: 0.4rem;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 0 1.6rem;
+}
+
+.c2 label[mask='date'] {
+  -webkit-flex: 6.2;
+  -ms-flex: 6.2;
+  flex: 6.2;
+}
+
+.c2 label[mask='time'] {
+  -webkit-flex: 3.8;
+  -ms-flex: 3.8;
+  flex: 3.8;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c3 button {
+  margin-right: 1.6rem;
+}
+
+.c13 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c13 p:nth-child(2) {
+  margin: 0 0.4rem;
+}
+
+.c17 {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background: #201E24;
+  cursor: pointer;
+  height: 100%;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+      >
+        <button
+          className="c4"
+          disabled={false}
+          onClick={[Function]}
+          size="medium"
+          type="button"
+        >
+          <div
+            className="c5"
+            name="close"
+            size="medium"
+          >
+            <svg
+              data-testid="svg"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
+            />
+          </div>
+        </button>
+        <p
+          className="c6"
+          fontWeight="medium"
+          size="s16"
+        >
+          Schedule
+        </p>
+      </div>
+      <button
+        className="c7"
+        disabled={false}
+        label="save"
+        onClick={[Function]}
+        size="medium"
+        type="button"
+      >
+        <div
+          className="c5"
+          name="tweets"
+          size="medium"
+        >
+          <svg
+            data-testid="svg"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+          />
+        </div>
+        save
+      </button>
+    </div>
+    <textarea
+      className="c8"
+      maxLength={280}
+      onChange={[Function]}
+      placeholder="Type the"
+    />
+    <div
+      className="feedbacks right"
+    >
+      <p
+        className="c9"
+        fontWeight="medium"
+        size="s12"
+      >
+        280
+      </p>
+    </div>
+    <div
+      className="input-titles"
+    >
+      <p
+        className="c9"
+        fontWeight="medium"
+        size="s12"
+      >
+        When
+      </p>
+    </div>
+    <div
+      className="c2"
+    >
+      <label
+        className="c10"
+        mask="date"
+        maxLength={10}
+        placeholder="Date"
+      >
+        <div
+          className="c11 c12"
+          name="calendar"
+          size="large"
+        >
+          <svg
+            data-testid="svg"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+          />
+        </div>
+        <input
+          maxLength={10}
+          onChange={[Function]}
+          placeholder="Date"
+          type="input"
+        />
+      </label>
+      <label
+        className="c10"
+        mask="time"
+        maxLength={5}
+        placeholder="Time"
+      >
+        <div
+          className="c11 c12"
+          name="clock"
+          size="large"
+        >
+          <svg
+            data-testid="svg"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+          />
+        </div>
+        <input
+          maxLength={5}
+          onChange={[Function]}
+          placeholder="Time"
+          type="input"
+        />
+      </label>
+    </div>
+    <div
+      className="feedbacks"
+    >
+      
+    </div>
+    <div
+      className="c13"
+    >
+      <div
+        className="c14"
+        color="#79787C"
+        name="globe"
+        size="medium"
+      >
+        <svg
+          data-testid="svg"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        />
+      </div>
+      <p
+        className="c15"
+        fontWeight="medium"
+        size="s12"
+      >
+        Timezone
+      </p>
+      <p
+        className="c16"
+        size="s12"
+      >
+        America/Cuiaba
+      </p>
+    </div>
+  </div>
+  <div
+    className="c17"
+    data-testid="mask"
+    onClick={[MockFunction]}
+  />
+</div>
+`;

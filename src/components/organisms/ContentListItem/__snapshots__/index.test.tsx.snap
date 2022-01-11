@@ -203,12 +203,16 @@ exports[`ContentListItem should match snapshot 1`] = `
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 2rem 3rem;
+  position: relative;
 }
 
 .c2 {
   fill: #1DA1F2;
+  left: 3rem;
   margin-right: 2rem;
   min-width: 2.4rem;
+  position: absolute;
+  top: 2rem;
 }
 
 .c3 {
@@ -219,6 +223,11 @@ exports[`ContentListItem should match snapshot 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  padding-left: 5rem;
+}
+
+.c3 p {
+  word-break: break-word;
 }
 
 .c3 p:nth-child(1) {

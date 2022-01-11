@@ -5,7 +5,7 @@ export interface TextareaProps {
     /**
      * Send click event to parent (Required)
      */
-    change: (e: string) => void;
+    change: (e: ChangeEvent<HTMLTextAreaElement>) => void;
     /**
      * Controls error visual feedback. (Optional | Default: false)
      */
@@ -55,7 +55,7 @@ export const Textarea: FC<TextareaProps> = (props) => {
             ref={ref}
             currentHeight={height}
             onChange={(e: ChangeEvent<HTMLTextAreaElement>) => {
-                change(e.target.value);
+                change(e);
                 handleHeight(e.target.scrollHeight);
             }}
             {...props}
