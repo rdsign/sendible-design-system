@@ -62,7 +62,7 @@ yarn start
 
 ## Features/Important
 
-Due to the limited time i had, the main focus goes to the Design System, so i tried to leave the front application as close as the original, replacing the components with the library ones and small changes on CRA to add webpack aliases. Tests in the front application are gonna fail, because it need new configs to work with the new components, in other hands all components are tested in the Component Library (some of them can have more test cases, but again, i ran out of time).
+Due to the limited time i had, the main focus went to the Design System, so i tried to leave the front application as close as the original, replacing the components with the library ones and small changes on CRA to add webpack aliases. Tests in the front application are gonna fail, because it needs new configs to work with the new components, in other hand, all components are tested in the Component Library (some of them could have more test cases, but again, i ran out of time).
 
 #### Storybook easy to use design system
 ![image](zz_images/design_system.png)
