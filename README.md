@@ -90,5 +90,5 @@ Due to the limited time i had, the main focus went to the Design System, so i tr
 ## Dependencies
 
 -   npm 7.6.2+
--   Nodejs 12+
+-   Nodejs 14+
 -   Yarn 1.22.10+
