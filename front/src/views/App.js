@@ -15,7 +15,7 @@ export default function App() {
     <ThemeProvider>
       <Header>
         <div className="wrapper">
-          <Heading size="">{texts["scheduled"]} <i>{texts["tweets"]}</i>.</Heading>
+          <Heading size="s32">{texts["scheduled"]} <i>{texts["tweets"]}</i>.</Heading>
           <Button
             data-testid="message-list-add-message"
             click={() => dispatch({ type: actions.OPEN_MESSAGE_MODAL })}
